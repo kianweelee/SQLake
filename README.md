@@ -1,4 +1,14 @@
 # SQLake
+![](https://github.com/kianweelee/SQLake/blob/master/Images/Logo.png)
+
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![CodeFactor](https://www.codefactor.io/repository/github/kianweelee/sqlake/badge)](https://www.codefactor.io/repository/github/kianweelee/sqlake)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/kianweelee/SQLake/blob/master/LICENSE)
+![](https://img.shields.io/github/last-commit/kianweelee/SQLake)
+![](https://img.shields.io/bitbucket/issues-raw/kianweelee/sqlake)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/kianweelee/SQLake/pulls)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/kianweelee/SQLake/issues)
+
 A python script that exports CSV or Excel file directly into a relational database management system.
 
 ## Table of contents
