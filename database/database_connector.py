@@ -7,7 +7,6 @@ Created on Fri May 22 14:23:22 2020
 """
 import psycopg2
 import mysql.connector
-import sqlite3
 
 def connector(data, username, password, database_name, table_name, mysql_choice, postgresql_choice, sqlite_choice, result_lst):
     
@@ -106,6 +105,7 @@ def connector(data, username, password, database_name, table_name, mysql_choice,
     # If user uses SQLite
     else:
         try:
+            import sqlite3
             connection = sqlite3.connect("{}.db".format(database_name))
            
             # Creating a cursor object
