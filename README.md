@@ -79,7 +79,7 @@ For start, SQLake utilises Pandas to identify data type of each column in the pr
 ## Target Audience
 I am aware that analysts are required to clean up data files and export those files into an SQL database. Imagine spending hours sitting in front of the computer doing that for the next 5 to 10 years of your career. Won't that scare you? Indeed, there are tons of websites out there that can take in your files and generate an SQL query for you but do you trust them with your client's details? How confident are you that they won't exploit those data for personal use? 
 
-That is why my script can save you the trouble of going through all those risks! My script can be run on your local machine offline and every process is transparent to the end user. Feel free to drop in an issue if you encounter any and I will look into it! You can't get a better support that this! I have also added in a graphic user interface to cater to users with non-technical backgrounds. All they have to do is choose the file path, key in the names of the database, table, their usernames and password and bam! your work is done!
+That is why I have decided to create this script. This script can be run on your local machine offline and every process is transparent to the end user. I have also added in a graphic user interface to cater to users with non-technical backgrounds. All they have to do is choose the file path, key in the names of the database, table, their usernames and password and bam! your work is done!
 
 <a name="aboutme"></a>
 ## About me
