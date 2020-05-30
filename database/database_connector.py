@@ -5,14 +5,13 @@ Created on Fri May 22 14:23:22 2020
 
 @author: kianweelee
 """
-import psycopg2
-import mysql.connector
 
 def connector(data, username, password, database_name, table_name, mysql_choice, postgresql_choice, sqlite_choice, result_lst):
     
     # If user uses PostgreSQL
     if postgresql_choice:
         try:
+            import psycopg2
             connection = psycopg2.connect(user = username, #Default username: postgres
                                           password = password,
                                           host = "127.0.0.1",
@@ -62,6 +61,7 @@ def connector(data, username, password, database_name, table_name, mysql_choice,
                 
     # If user uses MySQL
     elif mysql_choice:
+        import mysql.connector
         # Establish connection
         connection = mysql.connector.connect(user = username, # Default: root
                                              password = password,
