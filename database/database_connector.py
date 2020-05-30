@@ -10,8 +10,8 @@ def connector(data, username, password, database_name, table_name, mysql_choice,
     
     # If user uses PostgreSQL
     if postgresql_choice:
+        import psycopg2
         try:
-            import psycopg2
             connection = psycopg2.connect(user = username, #Default username: postgres
                                           password = password,
                                           host = "127.0.0.1",
